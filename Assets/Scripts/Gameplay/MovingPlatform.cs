@@ -90,7 +90,7 @@ public class MovingPlatform : MonoBehaviour
     public float moveSfxSmoothSpeed = 6f;
 
     [Tooltip("SFX saat platform berhenti, mis. sampai di ujung lintasan atau saat jeda diam. " +
-             "Diputar sekali dan volumenya tidak ikut dikecilkan seperti SFX gerak.")]
+             "Diputar sekali, dengan volume yang ikut mengecil saat Webi menjauh (proximity).")]
     public AudioClip moveStopSfx;
 
     [Tooltip("Volume SFX saat berhenti (0 = senyap, 1 = penuh).")]
@@ -159,6 +159,7 @@ public class MovingPlatform : MonoBehaviour
     private Rigidbody2D playerBody;
     private Collider2D playerCollider;
     private AudioSource moveLoopSource;
+    private AudioSource moveStopSource;
     private Transform proximityTarget;
     private float proximitySearchTimer;
 
@@ -238,13 +239,28 @@ public class MovingPlatform : MonoBehaviour
             return;
         }
 
-        AudioManager manager = AudioManager.Instance;
-        if (manager == null)
+        PlayStopSfx();
+    }
+
+    /// <summary>
+    /// SFX berhenti dengan volume mengikuti jarak ke Webi, sama seperti loop geraknya. Diputar
+    /// lewat AudioSource milik platform ini (bukan volume global AudioManager) supaya tiap moving
+    /// ground punya jarak sendiri; platform yang jauh tidak ikut terdengar.
+    /// </summary>
+    void PlayStopSfx()
+    {
+        if (moveStopSfx == null || moveStopSource == null)
         {
             return;
         }
 
-        manager.PlaySfx(moveStopSfx, 1f, 1f, moveStopSfxVolume);
+        float volume = moveStopSfxVolume * GetProximityFactor() * GetGlobalSfxVolume();
+        if (volume <= 0.0001f)
+        {
+            return;
+        }
+
+        moveStopSource.PlayOneShot(moveStopSfx, Mathf.Clamp01(volume));
     }
 
     /// <summary>
@@ -261,6 +277,15 @@ public class MovingPlatform : MonoBehaviour
         moveLoopSource.spatialBlend = 0f;
         moveLoopSource.dopplerLevel = 0f;
         moveLoopSource.volume = 0f;
+
+        // SFX berhenti diputar sekali, jadi sumbernya terpisah dari loop; dua AudioSource supaya
+        // PlayOneShot tidak memotong loop yang sedang berbunyi.
+        moveStopSource = gameObject.AddComponent<AudioSource>();
+        moveStopSource.playOnAwake = false;
+        moveStopSource.loop = false;
+        moveStopSource.spatialBlend = 0f;
+        moveStopSource.dopplerLevel = 0f;
+        moveStopSource.volume = 1f;
     }
 
     /// <summary>
@@ -315,6 +340,11 @@ public class MovingPlatform : MonoBehaviour
         if (moveLoopSource.isPlaying)
         {
             moveLoopSource.Stop();
+        }
+
+        if (moveStopSource != null)
+        {
+            moveStopSource.Stop();
         }
     }
 
