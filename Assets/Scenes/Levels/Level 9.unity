@@ -1849,6 +1849,7 @@ MonoBehaviour:
   maxMoves: 17
   movesLabel: {fileID: 880030}
   movesFormat: 'Moves: {0}'
+  retryButton: {fileID: 0}
   pausePopup: {fileID: 880100}
   resumeCountdownRoot: {fileID: 880031}
   resumeCountdownLabel: {fileID: 880034}
@@ -1861,8 +1862,8 @@ MonoBehaviour:
   levelNumber: 9
   winPopup: {fileID: 695639075}
   levelSelectScene: Level Selection
-  enableDebugKeys: 0
   spendMoveKey: 27
+  touchControlsResourcePath: UI/Touch Controls
 --- !u!114 &880100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3154,7 +3155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 822504637252675004, guid: c786d290833b40d489c6996750aa19c7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12
+      value: 12.5
       objectReference: {fileID: 0}
     - target: {fileID: 822504637252675004, guid: c786d290833b40d489c6996750aa19c7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3218,7 +3219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7156996510039484667, guid: c786d290833b40d489c6996750aa19c7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12
+      value: 12.5
       objectReference: {fileID: 0}
     - target: {fileID: 7156996510039484667, guid: c786d290833b40d489c6996750aa19c7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6104,6 +6105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   musicSource: {fileID: 695635986}
   sfxSource: {fileID: 695635989}
+  uiSfxSource: {fileID: 0}
   defaultMusicVolume: 1
   defaultSfxVolume: 1
   musicFadeDuration: 0.8
