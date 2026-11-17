@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 32f240ff18c322b448598e576d2b45c5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5068045428287511918
+    second: Benih_Tumbuh_Tanah_Baru_06_0
+  - first:
+      213: 8742341484704908507
+    second: Benih_Tumbuh_Tanah_Baru_06_1
+  - first:
+      213: 1534306398688382364
+    second: Benih_Tumbuh_Tanah_Baru_06_2
+  - first:
+      213: -6820322835080388044
+    second: Benih_Tumbuh_Tanah_Baru_06_3
+  - first:
+      213: 5970379952620376800
+    second: Benih_Tumbuh_Tanah_Baru_06_4
+  - first:
+      213: -8565691462788208944
+    second: Benih_Tumbuh_Tanah_Baru_06_5
+  - first:
+      213: -2057551735455033330
+    second: Benih_Tumbuh_Tanah_Baru_06_6
+  - first:
+      213: 1453479725666066190
+    second: Benih_Tumbuh_Tanah_Baru_06_7
+  - first:
+      213: 735838406162243097
+    second: Benih_Tumbuh_Tanah_Baru_06_8
+  - first:
+      213: -4419733227855170887
+    second: Benih_Tumbuh_Tanah_Baru_06_9
+  - first:
+      213: 4467411438202824449
+    second: Benih_Tumbuh_Tanah_Baru_06_10
+  - first:
+      213: -616328966560974842
+    second: Benih_Tumbuh_Tanah_Baru_06_11
+  - first:
+      213: 5891009106243616651
+    second: Benih_Tumbuh_Tanah_Baru_06_12
+  - first:
+      213: 1128644457789994338
+    second: Benih_Tumbuh_Tanah_Baru_06_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Benih_Tumbuh_Tanah_Baru_06_0
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 697
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d9e922770555640800000000000000
+      internalID: 5068045428287511918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_Tumbuh_Tanah_Baru_06_1
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 710
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd44ffce249035970800000000000000
+      internalID: 8742341484704908507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_Tumbuh_Tanah_Baru_06_2
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 697
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d0e6e5a83fa4510800000000000000
+      internalID: 1534306398688382364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_Tumbuh_Tanah_Baru_06_3
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 680
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4326c8164885951a0800000000000000
+      internalID: -6820322835080388044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_Tumbuh_Tanah_Baru_06_4
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 704
+        width: 69
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e21d0a3fec0bd250800000000000000
+      internalID: 5970379952620376800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_Tumbuh_Tanah_Baru_06_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 39
+        width: 714
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6a9e06ffc802980800000000000000
+      internalID: -8565691462788208944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_Tumbuh_Tanah_Baru_06_6
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 644
+        width: 23
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08d635199b1273e0800000000000000
+      internalID: -2057551735455033330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_Tumbuh_Tanah_Baru_06_7
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 624
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0fde801c1ccb2410800000000000000
+      internalID: 1453479725666066190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_Tumbuh_Tanah_Baru_06_8
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 624
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ed36bb129363a00800000000000000
+      internalID: 735838406162243097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_Tumbuh_Tanah_Baru_06_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 509
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2b3b7cb04f9a2c0800000000000000
+      internalID: -4419733227855170887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_Tumbuh_Tanah_Baru_06_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 519
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107a89f980f6ffd30800000000000000
+      internalID: 4467411438202824449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_Tumbuh_Tanah_Baru_06_11
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 432
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6087953021c5277f0800000000000000
+      internalID: -616328966560974842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_Tumbuh_Tanah_Baru_06_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 386
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ffd3af19111c150800000000000000
+      internalID: 5891009106243616651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_Tumbuh_Tanah_Baru_06_13
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 277
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26539409720c9af00800000000000000
+      internalID: 1128644457789994338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Benih_Tumbuh_Tanah_Baru_06_0: 5068045428287511918
+      Benih_Tumbuh_Tanah_Baru_06_1: 8742341484704908507
+      Benih_Tumbuh_Tanah_Baru_06_10: 4467411438202824449
+      Benih_Tumbuh_Tanah_Baru_06_11: -616328966560974842
+      Benih_Tumbuh_Tanah_Baru_06_12: 5891009106243616651
+      Benih_Tumbuh_Tanah_Baru_06_13: 1128644457789994338
+      Benih_Tumbuh_Tanah_Baru_06_2: 1534306398688382364
+      Benih_Tumbuh_Tanah_Baru_06_3: -6820322835080388044
+      Benih_Tumbuh_Tanah_Baru_06_4: 5970379952620376800
+      Benih_Tumbuh_Tanah_Baru_06_5: -8565691462788208944
+      Benih_Tumbuh_Tanah_Baru_06_6: -2057551735455033330
+      Benih_Tumbuh_Tanah_Baru_06_7: 1453479725666066190
+      Benih_Tumbuh_Tanah_Baru_06_8: 735838406162243097
+      Benih_Tumbuh_Tanah_Baru_06_9: -4419733227855170887
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

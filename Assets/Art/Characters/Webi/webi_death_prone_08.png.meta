@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: e8045b5bb5aa0f84ea785796aa6bbd2d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1570497974655913125
+    second: webi_death_prone_08_0
+  - first:
+      213: 5987046303919109697
+    second: webi_death_prone_08_1
+  - first:
+      213: -6276952611188671280
+    second: webi_death_prone_08_2
+  - first:
+      213: 8697676535602532755
+    second: webi_death_prone_08_3
+  - first:
+      213: 6175979672677540497
+    second: webi_death_prone_08_4
+  - first:
+      213: -7051530937002023838
+    second: webi_death_prone_08_5
+  - first:
+      213: -1311640922746508934
+    second: webi_death_prone_08_6
+  - first:
+      213: 5782935854031646467
+    second: webi_death_prone_08_7
+  - first:
+      213: -4260900738704342791
+    second: webi_death_prone_08_8
+  - first:
+      213: 2502296747232517445
+    second: webi_death_prone_08_9
+  - first:
+      213: 7012142726278951291
+    second: webi_death_prone_08_10
+  - first:
+      213: 6020690772760291504
+    second: webi_death_prone_08_11
+  - first:
+      213: 822295254221838841
+    second: webi_death_prone_08_12
+  - first:
+      213: 9067753396362452049
+    second: webi_death_prone_08_13
+  - first:
+      213: 4079082167154874082
+    second: webi_death_prone_08_14
+  - first:
+      213: -8414143307611779062
+    second: webi_death_prone_08_15
+  - first:
+      213: -2700439011684227784
+    second: webi_death_prone_08_16
+  - first:
+      213: -703652018386149402
+    second: webi_death_prone_08_17
+  - first:
+      213: 6150572489647533920
+    second: webi_death_prone_08_18
+  - first:
+      213: -6444166329404684565
+    second: webi_death_prone_08_19
+  - first:
+      213: 5231317063099648897
+    second: webi_death_prone_08_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.2266}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: webi_death_prone_08_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 227
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac06db46978bc510800000000000000
+      internalID: 1570497974655913125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: webi_death_prone_08_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 229
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146f9e684e2461350800000000000000
+      internalID: 5987046303919109697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: webi_death_prone_08_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 240
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc732a5bd8c3e8a0800000000000000
+      internalID: -6276952611188671280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: webi_death_prone_08_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 245
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391d6d31aba54b870800000000000000
+      internalID: 8697676535602532755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: webi_death_prone_08_4
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 234
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1926af16acc75b550800000000000000
+      internalID: 6175979672677540497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: webi_death_prone_08_5
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 249
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264215139fde32e90800000000000000
+      internalID: -7051530937002023838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: webi_death_prone_08_6
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 235
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7924d6b78d1ccde0800000000000000
+      internalID: -1311640922746508934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: webi_death_prone_08_7
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 224
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f2d6a158d114050800000000000000
+      internalID: 5782935854031646467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: webi_death_prone_08_8
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 233
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f004567a5d3ed4c0800000000000000
+      internalID: -4260900738704342791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: webi_death_prone_08_9
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 233
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54dd86542a1f9b220800000000000000
+      internalID: 2502296747232517445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: webi_death_prone_08_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 161
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71323a58a2205160800000000000000
+      internalID: 7012142726278951291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: webi_death_prone_08_11
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 204
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b869dcdb5acd8350800000000000000
+      internalID: 6020690772760291504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: webi_death_prone_08_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 185
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9d1605d21696b00800000000000000
+      internalID: 822295254221838841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: webi_death_prone_08_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 210
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c9605cba127dd70800000000000000
+      internalID: 9067753396362452049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: webi_death_prone_08_14
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 198
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e695ee7e9fcb9830800000000000000
+      internalID: 4079082167154874082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: webi_death_prone_08_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 188
+        width: 17
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00d194ed35fa3b80800000000000000
+      internalID: -8414143307611779062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: webi_death_prone_08_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 193
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83564f2c60d168ad0800000000000000
+      internalID: -2700439011684227784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: webi_death_prone_08_17
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 212
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef5b96a7302c36f0800000000000000
+      internalID: -703652018386149402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: webi_death_prone_08_18
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 181
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f2bba97193b5550800000000000000
+      internalID: 6150572489647533920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: webi_death_prone_08_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 256
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be60d46bdd8b196a0800000000000000
+      internalID: -6444166329404684565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: webi_death_prone_08_20
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 38
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b8e75f62f599840800000000000000
+      internalID: 5231317063099648897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      webi_death_prone_08_0: 1570497974655913125
+      webi_death_prone_08_1: 5987046303919109697
+      webi_death_prone_08_10: 7012142726278951291
+      webi_death_prone_08_11: 6020690772760291504
+      webi_death_prone_08_12: 822295254221838841
+      webi_death_prone_08_13: 9067753396362452049
+      webi_death_prone_08_14: 4079082167154874082
+      webi_death_prone_08_15: -8414143307611779062
+      webi_death_prone_08_16: -2700439011684227784
+      webi_death_prone_08_17: -703652018386149402
+      webi_death_prone_08_18: 6150572489647533920
+      webi_death_prone_08_19: -6444166329404684565
+      webi_death_prone_08_2: -6276952611188671280
+      webi_death_prone_08_20: 5231317063099648897
+      webi_death_prone_08_3: 8697676535602532755
+      webi_death_prone_08_4: 6175979672677540497
+      webi_death_prone_08_5: -7051530937002023838
+      webi_death_prone_08_6: -1311640922746508934
+      webi_death_prone_08_7: 5782935854031646467
+      webi_death_prone_08_8: -4260900738704342791
+      webi_death_prone_08_9: 2502296747232517445
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

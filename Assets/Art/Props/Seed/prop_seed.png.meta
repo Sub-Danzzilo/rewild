@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: ed01967a412aba44f8ee1967becced1a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7831733467798633179
+    second: Benih_HD_Transparan_2048_0
+  - first:
+      213: -6135669493739784176
+    second: Benih_HD_Transparan_2048_1
+  - first:
+      213: 1013648091785264613
+    second: Benih_HD_Transparan_2048_2
+  - first:
+      213: -8038601443046539403
+    second: Benih_HD_Transparan_2048_3
+  - first:
+      213: 1443160395063239421
+    second: Benih_HD_Transparan_2048_4
+  - first:
+      213: -7626724487150727036
+    second: Benih_HD_Transparan_2048_5
+  - first:
+      213: -5605204949610208279
+    second: Benih_HD_Transparan_2048_6
+  - first:
+      213: 7902974950683437667
+    second: Benih_HD_Transparan_2048_7
+  - first:
+      213: -4597725713875940457
+    second: Benih_HD_Transparan_2048_8
+  - first:
+      213: -6589343171734911703
+    second: Benih_HD_Transparan_2048_9
+  - first:
+      213: 3320523142641403644
+    second: Benih_HD_Transparan_2048_10
+  - first:
+      213: -5579829034688726281
+    second: Benih_HD_Transparan_2048_11
+  - first:
+      213: 878454004448304335
+    second: Benih_HD_Transparan_2048_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Benih_HD_Transparan_2048_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 64
+        width: 1872
+        height: 1951
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdafcab3818efac60800000000000000
+      internalID: 7831733467798633179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_HD_Transparan_2048_1
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1663
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01870768a19b9daa0800000000000000
+      internalID: -6135669493739784176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_HD_Transparan_2048_2
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 1640
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edfc16a193311e00800000000000000
+      internalID: 1013648091785264613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_HD_Transparan_2048_3
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 1567
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fb440f396217090800000000000000
+      internalID: -8038601443046539403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_HD_Transparan_2048_4
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1570
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df228adabb2270410800000000000000
+      internalID: 1443160395063239421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_HD_Transparan_2048_5
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 1531
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4809b9fac7e682690800000000000000
+      internalID: -7626724487150727036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_HD_Transparan_2048_6
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1531
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3e835cbcf4632b0800000000000000
+      internalID: -5605204949610208279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_HD_Transparan_2048_7
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1524
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36aeb4c88d10dad60800000000000000
+      internalID: 7902974950683437667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_HD_Transparan_2048_8
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 1511
+        width: 139
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79bceb1b2d89130c0800000000000000
+      internalID: -4597725713875940457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_HD_Transparan_2048_9
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 1105
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92548911c43fd84a0800000000000000
+      internalID: -6589343171734911703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_HD_Transparan_2048_10
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 773
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6ca91943ed41e20800000000000000
+      internalID: 3320523142641403644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_HD_Transparan_2048_11
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 327
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fab7ff5e077092b0800000000000000
+      internalID: -5579829034688726281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Benih_HD_Transparan_2048_12
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 117
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc19a64345e03c00800000000000000
+      internalID: 878454004448304335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Benih_HD_Transparan_2048_0: 7831733467798633179
+      Benih_HD_Transparan_2048_1: -6135669493739784176
+      Benih_HD_Transparan_2048_10: 3320523142641403644
+      Benih_HD_Transparan_2048_11: -5579829034688726281
+      Benih_HD_Transparan_2048_12: 878454004448304335
+      Benih_HD_Transparan_2048_2: 1013648091785264613
+      Benih_HD_Transparan_2048_3: -8038601443046539403
+      Benih_HD_Transparan_2048_4: 1443160395063239421
+      Benih_HD_Transparan_2048_5: -7626724487150727036
+      Benih_HD_Transparan_2048_6: -5605204949610208279
+      Benih_HD_Transparan_2048_7: 7902974950683437667
+      Benih_HD_Transparan_2048_8: -4597725713875940457
+      Benih_HD_Transparan_2048_9: -6589343171734911703
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

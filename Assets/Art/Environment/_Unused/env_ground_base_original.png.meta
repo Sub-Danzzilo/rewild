@@ -1,0 +1,1651 @@
+fileFormatVersion: 2
+guid: ec3ece7f8e310994ba94f21a70296633
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6104565205361984242
+    second: Tanah_Dasar_0
+  - first:
+      213: -5186445312640723895
+    second: Tanah_Dasar_1
+  - first:
+      213: 5113340803257868317
+    second: Tanah_Dasar_2
+  - first:
+      213: 3106754834887789606
+    second: Tanah_Dasar_3
+  - first:
+      213: 1241383959941672661
+    second: Tanah_Dasar_4
+  - first:
+      213: -564576600088740122
+    second: Tanah_Dasar_5
+  - first:
+      213: -3590632177664174003
+    second: Tanah_Dasar_6
+  - first:
+      213: -277622980462890711
+    second: Tanah_Dasar_7
+  - first:
+      213: -4583540193573456657
+    second: Tanah_Dasar_8
+  - first:
+      213: -296435724446752862
+    second: Tanah_Dasar_9
+  - first:
+      213: 1317610979889313525
+    second: Tanah_Dasar_10
+  - first:
+      213: 1452843561235991857
+    second: Tanah_Dasar_11
+  - first:
+      213: -2046116981483126335
+    second: Tanah_Dasar_12
+  - first:
+      213: 8160429970346484767
+    second: Tanah_Dasar_13
+  - first:
+      213: 5819085608328811038
+    second: Tanah_Dasar_14
+  - first:
+      213: 7184295042522800255
+    second: Tanah_Dasar_15
+  - first:
+      213: 7389438004285365203
+    second: Tanah_Dasar_16
+  - first:
+      213: 6509812743492154882
+    second: Tanah_Dasar_17
+  - first:
+      213: 5390510341631784834
+    second: Tanah_Dasar_18
+  - first:
+      213: -2421005264081011834
+    second: Tanah_Dasar_19
+  - first:
+      213: -8125729902158461591
+    second: Tanah_Dasar_20
+  - first:
+      213: -8365304503061853101
+    second: Tanah_Dasar_21
+  - first:
+      213: -4121379139776217672
+    second: Tanah_Dasar_22
+  - first:
+      213: -3924296276708324869
+    second: Tanah_Dasar_23
+  - first:
+      213: -1935193183633697427
+    second: Tanah_Dasar_24
+  - first:
+      213: -7180692969776461103
+    second: Tanah_Dasar_25
+  - first:
+      213: -8026239829432448221
+    second: Tanah_Dasar_26
+  - first:
+      213: 1752017743090660218
+    second: Tanah_Dasar_27
+  - first:
+      213: -8485800994642696251
+    second: Tanah_Dasar_28
+  - first:
+      213: -3547293246301669735
+    second: Tanah_Dasar_29
+  - first:
+      213: -3471879314571892614
+    second: Tanah_Dasar_30
+  - first:
+      213: 7982761013048990041
+    second: Tanah_Dasar_31
+  - first:
+      213: 8423940317624115179
+    second: Tanah_Dasar_32
+  - first:
+      213: -3247331515450781511
+    second: Tanah_Dasar_33
+  - first:
+      213: -7311598787584996950
+    second: Tanah_Dasar_34
+  - first:
+      213: 4092376774944275724
+    second: Tanah_Dasar_35
+  - first:
+      213: -5628291103349398525
+    second: Tanah_Dasar_36
+  - first:
+      213: 2681583524896571704
+    second: Tanah_Dasar_37
+  - first:
+      213: 1486589761721165919
+    second: Tanah_Dasar_38
+  - first:
+      213: -2204036349970475670
+    second: Tanah_Dasar_39
+  - first:
+      213: -1451576911404268260
+    second: Tanah_Dasar_40
+  - first:
+      213: -6320462817298281283
+    second: Tanah_Dasar_41
+  - first:
+      213: -7147850239970117484
+    second: Tanah_Dasar_42
+  - first:
+      213: 4366078167732277655
+    second: Tanah_Dasar_43
+  - first:
+      213: -4964515720680241874
+    second: Tanah_Dasar_44
+  - first:
+      213: -6489414910326186392
+    second: Tanah_Dasar_45
+  - first:
+      213: 4514500470416925034
+    second: Tanah_Dasar_46
+  - first:
+      213: -1887686686430743442
+    second: Tanah_Dasar_47
+  - first:
+      213: -1478572820590256678
+    second: Tanah_Dasar_48
+  - first:
+      213: 3529747508675464416
+    second: Tanah_Dasar_49
+  - first:
+      213: 5876253230865956289
+    second: Tanah_Dasar_50
+  - first:
+      213: 8861112534185634288
+    second: Tanah_Dasar_51
+  - first:
+      213: 4320656655245804624
+    second: Tanah_Dasar_52
+  - first:
+      213: -3525369726348356530
+    second: Tanah_Dasar_53
+  - first:
+      213: -1168217885600552827
+    second: Tanah_Dasar_54
+  - first:
+      213: -3388302764616708034
+    second: Tanah_Dasar_55
+  - first:
+      213: 8093038474989500980
+    second: Tanah_Dasar_56
+  - first:
+      213: -4071020530703048518
+    second: Tanah_Dasar_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tanah_Dasar_0
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 417
+        width: 98
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d70320a4a384ba0800000000000000
+      internalID: -6104565205361984242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_1
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 616
+        width: 158
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9445f05977b0608b0800000000000000
+      internalID: -5186445312640723895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_2
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 594
+        width: 72
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1022b17e5c36f640800000000000000
+      internalID: 5113340803257868317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_3
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 616
+        width: 89
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62cc6b1ef096d1b20800000000000000
+      internalID: 3106754834887789606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_4
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 675
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dee03a62284a3110800000000000000
+      internalID: 1241383959941672661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_5
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 661
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee763fc2983a28f0800000000000000
+      internalID: -564576600088740122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_6
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 592
+        width: 49
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d485d33fe038b2ec0800000000000000
+      internalID: -3590632177664174003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_7
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 578
+        width: 86
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9213604ce5fa52cf0800000000000000
+      internalID: -277622980462890711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_8
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 597
+        width: 271
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe434548a7ef360c0800000000000000
+      internalID: -4583540193573456657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_9
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 628
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af9d997749d2ebf0800000000000000
+      internalID: -296435724446752862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_10
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 657
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6f4788438194210800000000000000
+      internalID: 1317610979889313525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 634
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d4fad7589892410800000000000000
+      internalID: 1452843561235991857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_12
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 651
+        width: 74
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1cdc5327bba93e0800000000000000
+      internalID: -2046116981483126335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_13
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 611
+        width: 82
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1424fc72dbaf3170800000000000000
+      internalID: 8160429970346484767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_14
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 630
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12d60aa78b81c050800000000000000
+      internalID: 5819085608328811038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_15
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 596
+        width: 72
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70eb23f64eb3b360800000000000000
+      internalID: 7184295042522800255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_16
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 610
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db5337c6be8c8660800000000000000
+      internalID: 7389438004285365203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_17
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 592
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20639222330875a50800000000000000
+      internalID: 6509812743492154882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_18
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 642
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28738077890feca40800000000000000
+      internalID: 5390510341631784834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_19
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 644
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bb9131a8cd66ed0800000000000000
+      internalID: -2421005264081011834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_20
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 642
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9654319b4bb9b3f80800000000000000
+      internalID: -8125729902158461591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_21
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 612
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35cc50130e778eb80800000000000000
+      internalID: -8365304503061853101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_22
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 598
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdfee4228bedc6c0800000000000000
+      internalID: -4121379139776217672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_23
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 632
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9896104591a89c0800000000000000
+      internalID: -3924296276708324869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_24
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 616
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6591c57d00d425e0800000000000000
+      internalID: -1935193183633697427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_25
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 596
+        width: 13
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da4457f9cd095c90800000000000000
+      internalID: -7180692969776461103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_26
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 610
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b469466611d9090800000000000000
+      internalID: -8026239829432448221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_27
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 578
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73b911dada605810800000000000000
+      internalID: 1752017743090660218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_28
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 610
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c76aaf74f06c3a80800000000000000
+      internalID: -8485800994642696251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_29
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 624
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996fb0c369b75cec0800000000000000
+      internalID: -3547293246301669735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_30
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 608
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a786aef782861dfc0800000000000000
+      internalID: -3471879314571892614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_31
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 604
+        width: 56
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9595f9dc8d678ce60800000000000000
+      internalID: 7982761013048990041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_32
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 596
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef93114619d7e470800000000000000
+      internalID: 8423940317624115179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_33
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 628
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b010a911392fe2d0800000000000000
+      internalID: -3247331515450781511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_34
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 594
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9c1d524abf78a90800000000000000
+      internalID: -7311598787584996950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_35
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 590
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0dbc959efa0bc830800000000000000
+      internalID: 4092376774944275724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_36
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 608
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3042e5cbf0b44e1b0800000000000000
+      internalID: -5628291103349398525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_37
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 618
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831000d1206e63520800000000000000
+      internalID: 2681583524896571704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_38
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 616
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f586f12138d61a410800000000000000
+      internalID: 1486589761721165919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_39
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 610
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6516fffd90b961e0800000000000000
+      internalID: -2204036349970475670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_40
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 602
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1507976d76fadbe0800000000000000
+      internalID: -1451576911404268260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_41
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 610
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc0fde0e843948a0800000000000000
+      internalID: -6320462817298281283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_42
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 616
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498f3e2e31cbdcc90800000000000000
+      internalID: -7147850239970117484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_43
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 594
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791554906fc679c30800000000000000
+      internalID: 4366078167732277655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_44
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 610
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e250303514f7a1bb0800000000000000
+      internalID: -4964515720680241874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_45
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 594
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e52ed7587f0f5a0800000000000000
+      internalID: -6489414910326186392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_46
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 609
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61e88d424ab6ae30800000000000000
+      internalID: 4514500470416925034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_47
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 610
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64bf08c5f69dc5e0800000000000000
+      internalID: -1887686686430743442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_48
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 613
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add9b2e7add0b7be0800000000000000
+      internalID: -1478572820590256678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_49
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 592
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eccb6168ae2cf030800000000000000
+      internalID: 3529747508675464416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_50
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 584
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cdb1040e25ac8150800000000000000
+      internalID: 5876253230865956289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_51
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 586
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f965e2d6eef8fa70800000000000000
+      internalID: 8861112534185634288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_52
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 16
+        width: 2062
+        height: 519
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0548a5c065e06fb30800000000000000
+      internalID: 4320656655245804624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_53
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 194
+        width: 10
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44171f79ee531fc0800000000000000
+      internalID: -3525369726348356530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_54
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 96
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5886584c508a9cfe0800000000000000
+      internalID: -1168217885600552827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_55
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 102
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e301c8b66945af0d0800000000000000
+      internalID: -3388302764616708034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_56
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 83
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a715f3d9f305070800000000000000
+      internalID: 8093038474989500980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tanah_Dasar_57
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 53
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab06f128564d087c0800000000000000
+      internalID: -4071020530703048518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tanah_Dasar_0: -6104565205361984242
+      Tanah_Dasar_1: -5186445312640723895
+      Tanah_Dasar_10: 1317610979889313525
+      Tanah_Dasar_11: 1452843561235991857
+      Tanah_Dasar_12: -2046116981483126335
+      Tanah_Dasar_13: 8160429970346484767
+      Tanah_Dasar_14: 5819085608328811038
+      Tanah_Dasar_15: 7184295042522800255
+      Tanah_Dasar_16: 7389438004285365203
+      Tanah_Dasar_17: 6509812743492154882
+      Tanah_Dasar_18: 5390510341631784834
+      Tanah_Dasar_19: -2421005264081011834
+      Tanah_Dasar_2: 5113340803257868317
+      Tanah_Dasar_20: -8125729902158461591
+      Tanah_Dasar_21: -8365304503061853101
+      Tanah_Dasar_22: -4121379139776217672
+      Tanah_Dasar_23: -3924296276708324869
+      Tanah_Dasar_24: -1935193183633697427
+      Tanah_Dasar_25: -7180692969776461103
+      Tanah_Dasar_26: -8026239829432448221
+      Tanah_Dasar_27: 1752017743090660218
+      Tanah_Dasar_28: -8485800994642696251
+      Tanah_Dasar_29: -3547293246301669735
+      Tanah_Dasar_3: 3106754834887789606
+      Tanah_Dasar_30: -3471879314571892614
+      Tanah_Dasar_31: 7982761013048990041
+      Tanah_Dasar_32: 8423940317624115179
+      Tanah_Dasar_33: -3247331515450781511
+      Tanah_Dasar_34: -7311598787584996950
+      Tanah_Dasar_35: 4092376774944275724
+      Tanah_Dasar_36: -5628291103349398525
+      Tanah_Dasar_37: 2681583524896571704
+      Tanah_Dasar_38: 1486589761721165919
+      Tanah_Dasar_39: -2204036349970475670
+      Tanah_Dasar_4: 1241383959941672661
+      Tanah_Dasar_40: -1451576911404268260
+      Tanah_Dasar_41: -6320462817298281283
+      Tanah_Dasar_42: -7147850239970117484
+      Tanah_Dasar_43: 4366078167732277655
+      Tanah_Dasar_44: -4964515720680241874
+      Tanah_Dasar_45: -6489414910326186392
+      Tanah_Dasar_46: 4514500470416925034
+      Tanah_Dasar_47: -1887686686430743442
+      Tanah_Dasar_48: -1478572820590256678
+      Tanah_Dasar_49: 3529747508675464416
+      Tanah_Dasar_5: -564576600088740122
+      Tanah_Dasar_50: 5876253230865956289
+      Tanah_Dasar_51: 8861112534185634288
+      Tanah_Dasar_52: 4320656655245804624
+      Tanah_Dasar_53: -3525369726348356530
+      Tanah_Dasar_54: -1168217885600552827
+      Tanah_Dasar_55: -3388302764616708034
+      Tanah_Dasar_56: 8093038474989500980
+      Tanah_Dasar_57: -4071020530703048518
+      Tanah_Dasar_6: -3590632177664174003
+      Tanah_Dasar_7: -277622980462890711
+      Tanah_Dasar_8: -4583540193573456657
+      Tanah_Dasar_9: -296435724446752862
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: f955278382a223143bff874ed3ec2c99
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7583586064979788229
+    second: env_surface_grass_0
+  - first:
+      213: -1477988296089515649
+    second: env_surface_grass_1
+  - first:
+      213: 5113689390423016533
+    second: env_surface_grass_2
+  - first:
+      213: 3265729534024027161
+    second: env_surface_grass_3
+  - first:
+      213: 4397332766578503163
+    second: env_surface_grass_4
+  - first:
+      213: -3588456044157816152
+    second: env_surface_grass_5
+  - first:
+      213: -2604809324042886433
+    second: env_surface_grass_6
+  - first:
+      213: -4342012706084457573
+    second: env_surface_grass_7
+  - first:
+      213: 8077577936593658013
+    second: env_surface_grass_8
+  - first:
+      213: -1294215234423963648
+    second: env_surface_grass_9
+  - first:
+      213: -7699142495637236223
+    second: env_surface_grass_10
+  - first:
+      213: 4404668531609378131
+    second: env_surface_grass_11
+  - first:
+      213: -6903464689887393028
+    second: env_surface_grass_12
+  - first:
+      213: 1139609737089482961
+    second: env_surface_grass_13
+  - first:
+      213: -8235402903510918545
+    second: env_surface_grass_14
+  - first:
+      213: 6190018854645531087
+    second: env_surface_grass_15
+  - first:
+      213: -6670486283942671038
+    second: env_surface_grass_16
+  - first:
+      213: -2538102364214345218
+    second: env_surface_grass_17
+  - first:
+      213: 5159753850039191983
+    second: env_surface_grass_18
+  - first:
+      213: -8015538481797138881
+    second: env_surface_grass_19
+  - first:
+      213: -8907204583917035337
+    second: env_surface_grass_20
+  - first:
+      213: 1530653811154113470
+    second: env_surface_grass_21
+  - first:
+      213: 2188769548955557225
+    second: env_surface_grass_22
+  - first:
+      213: 7823716121884220641
+    second: env_surface_grass_23
+  - first:
+      213: -8294093113480983542
+    second: env_surface_grass_24
+  - first:
+      213: 592922145120204837
+    second: env_surface_grass_25
+  - first:
+      213: 6465509334535084427
+    second: env_surface_grass_26
+  - first:
+      213: -8959821350863117564
+    second: env_surface_grass_27
+  - first:
+      213: -3507701020216559150
+    second: env_surface_grass_28
+  - first:
+      213: -7633750652828655348
+    second: env_surface_grass_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: env_surface_grass_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 168
+        width: 2117
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ef64947a0b1c690800000000000000
+      internalID: -7583586064979788229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_1
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 594
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f794665b9712d7be0800000000000000
+      internalID: -1477988296089515649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_2
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 584
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55409d7386977f640800000000000000
+      internalID: 5113689390423016533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_3
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 580
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c010865b3325d20800000000000000
+      internalID: 3265729534024027161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_4
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 530
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfde8176ad6760d30800000000000000
+      internalID: 4397332766578503163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_5
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 274
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2bed38d3e333ec0800000000000000
+      internalID: -3588456044157816152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_6
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 274
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd26ccc78bbd9dbd0800000000000000
+      internalID: -2604809324042886433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_7
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 272
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b937a93e2721eb3c0800000000000000
+      internalID: -4342012706084457573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_8
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 278
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90a2342652591070800000000000000
+      internalID: 8077577936593658013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_9
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 216
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000c241f9160a0ee0800000000000000
+      internalID: -1294215234423963648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_10
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 190
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1069d6821b6272590800000000000000
+      internalID: -7699142495637236223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_11
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 194
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d1beb41b6802d30800000000000000
+      internalID: 4404668531609378131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_12
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 182
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa4fcfc077f130a0800000000000000
+      internalID: -6903464689887393028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_13
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 192
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d08bc99405b0df00800000000000000
+      internalID: 1139609737089482961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_14
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 200
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ad20a31b8f5bd80800000000000000
+      internalID: -8235402903510918545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_15
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 196
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc10e182a5d57e550800000000000000
+      internalID: 6190018854645531087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_16
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 178
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d4b76011cad63a0800000000000000
+      internalID: -6670486283942671038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_17
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 178
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1cc61e859d6ccd0800000000000000
+      internalID: -2538102364214345218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_18
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 178
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa94a000ac02b9740800000000000000
+      internalID: 5159753850039191983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_19
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 184
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36f10d083613c090800000000000000
+      internalID: -8015538481797138881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_20
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 192
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0e4e19f90436480800000000000000
+      internalID: -8907204583917035337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_21
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 178
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb350ff0889fd3510800000000000000
+      internalID: 1530653811154113470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_22
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 174
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d10b4ee42106e10800000000000000
+      internalID: 2188769548955557225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_23
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 170
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ecd76c6c5c639c60800000000000000
+      internalID: 7823716121884220641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_24
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 184
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0cc3fcd14675ec80800000000000000
+      internalID: -8294093113480983542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_25
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 176
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5283a5fac8b7a3800800000000000000
+      internalID: 592922145120204837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_26
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 178
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b899fe8eb7a1ab950800000000000000
+      internalID: 6465509334535084427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_27
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 176
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403e7dad3f158a380800000000000000
+      internalID: -8959821350863117564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_28
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 180
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d977b7b184225fc0800000000000000
+      internalID: -3507701020216559150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_surface_grass_29
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 176
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01ed320a387f0690800000000000000
+      internalID: -7633750652828655348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2d7c0897f15d88a4a8e1978461e16211
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      env_surface_grass_0: -7583586064979788229
+      env_surface_grass_1: -1477988296089515649
+      env_surface_grass_10: -7699142495637236223
+      env_surface_grass_11: 4404668531609378131
+      env_surface_grass_12: -6903464689887393028
+      env_surface_grass_13: 1139609737089482961
+      env_surface_grass_14: -8235402903510918545
+      env_surface_grass_15: 6190018854645531087
+      env_surface_grass_16: -6670486283942671038
+      env_surface_grass_17: -2538102364214345218
+      env_surface_grass_18: 5159753850039191983
+      env_surface_grass_19: -8015538481797138881
+      env_surface_grass_2: 5113689390423016533
+      env_surface_grass_20: -8907204583917035337
+      env_surface_grass_21: 1530653811154113470
+      env_surface_grass_22: 2188769548955557225
+      env_surface_grass_23: 7823716121884220641
+      env_surface_grass_24: -8294093113480983542
+      env_surface_grass_25: 592922145120204837
+      env_surface_grass_26: 6465509334535084427
+      env_surface_grass_27: -8959821350863117564
+      env_surface_grass_28: -3507701020216559150
+      env_surface_grass_29: -7633750652828655348
+      env_surface_grass_3: 3265729534024027161
+      env_surface_grass_4: 4397332766578503163
+      env_surface_grass_5: -3588456044157816152
+      env_surface_grass_6: -2604809324042886433
+      env_surface_grass_7: -4342012706084457573
+      env_surface_grass_8: 8077577936593658013
+      env_surface_grass_9: -1294215234423963648
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
