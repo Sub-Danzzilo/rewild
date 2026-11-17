@@ -87,6 +87,10 @@ public class AudioManager : MonoBehaviour
     // ProximitySfx / MovingPlatform supaya loop mereka ikut diam.
     private bool sfxSuppressed;
 
+    // True selama dunia dibekukan pemain (popup pause, game over, menang). Dipakai bersama
+    // sfxSuppressed supaya loop portal/musuh/platform diam walau Time.timeScale sudah 0.
+    private bool sfxFrozen;
+
     #endregion
 
     #region Public Properties
@@ -103,6 +107,12 @@ public class AudioManager : MonoBehaviour
     /// <see cref="IsSfxMuted"/> yang berasal dari tombol Settings dan tersimpan di PlayerPrefs.
     /// </summary>
     public bool IsSfxSuppressed => sfxSuppressed;
+
+    /// <summary>
+    /// True saat SFX harus diam karena dunia sedang dibekukan (pause, game over, menang).
+    /// Berbeda dari <see cref="IsSfxSuppressed"/> yang khusus fase intro level.
+    /// </summary>
+    public bool IsSfxSilenced => sfxSuppressed || sfxFrozen;
 
     #endregion
 
@@ -198,6 +208,28 @@ public class AudioManager : MonoBehaviour
         ApplySfxMute();
     }
 
+    /// <summary>
+    /// Membungkam semua SFX selama dunia dibekukan (popup pause, game over, menang) tanpa menyentuh
+    /// slider maupun status mute Settings. Berbeda dari <see cref="SetSfxSuppressed"/> yang dipakai
+    /// intro, dan keduanya boleh aktif bersamaan.
+    /// </summary>
+    public void SetSfxFrozen(bool frozen)
+    {
+        if (sfxFrozen == frozen)
+        {
+            return;
+        }
+
+        sfxFrozen = frozen;
+        ApplySfxMute();
+
+        // Buang one-shot yang sedang berjalan supaya tidak menyeletuk lagi saat resume.
+        if (frozen && sfxSource != null)
+        {
+            sfxSource.Stop();
+        }
+    }
+
     /// <summary>Memutar SFX sekali dengan pitch acak di antara minPitch dan maxPitch.</summary>
     public void PlaySfx(AudioClip clip, float minPitch = 1f, float maxPitch = 1f)
     {
@@ -212,7 +244,7 @@ public class AudioManager : MonoBehaviour
     {
         // Selama dibungkam (intro level) clip tidak diputar sama sekali, bukan hanya volume 0,
         // supaya tidak ada sisa suara yang menyeletuk saat bungkamnya dilepas.
-        if (sfxSuppressed || sfxSource == null || clip == null)
+        if (IsSfxSilenced || sfxSource == null || clip == null)
         {
             return;
         }
@@ -371,15 +403,15 @@ public class AudioManager : MonoBehaviour
     #region Internal Helpers
 
     /// <summary>
-    /// Mute AudioSource SFX gabungan: tombol SFX di Settings dimatikan ATAU sedang dibungkam
-    /// (intro level). Satu AudioSource dipakai bersama, jadi kedua kondisi harus dihitung di satu
-    /// tempat supaya tidak saling menimpa.
+    /// Mute AudioSource SFX gabungan: tombol SFX di Settings dimatikan, sedang dibungkam intro,
+    /// atau dunia sedang dibekukan (pause/game over/menang). Satu AudioSource dipakai bersama, jadi
+    /// semua kondisi harus dihitung di satu tempat supaya tidak saling menimpa.
     /// </summary>
     private void ApplySfxMute()
     {
         if (sfxSource != null)
         {
-            sfxSource.mute = IsSfxMuted || sfxSuppressed;
+            sfxSource.mute = IsSfxMuted || IsSfxSilenced;
         }
 
         // Tombol UI hanya mengikuti mute Settings, bukan bungkam sementara intro level.

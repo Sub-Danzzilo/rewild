@@ -138,8 +138,13 @@ public class LevelHudController : MonoBehaviour
 
     private void Awake()
     {
-        // Scene bisa dimuat saat game sebelumnya masih pause; pastikan waktu selalu normal.
+        // Scene bisa dimuat saat game sebelumnya masih pause; pastikan waktu dan SFX selalu normal.
         Time.timeScale = 1f;
+
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.SetSfxFrozen(false);
+        }
 
         SetCountdownVisible(false);
         ResetMoves();
@@ -225,6 +230,12 @@ public class LevelHudController : MonoBehaviour
         if (isPaused || isCountingDown || isDead || isWon)
         {
             Time.timeScale = 1f;
+        }
+
+        // Jangan tinggalkan SFX dalam keadaan dibekukan saat scene berganti.
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.SetSfxFrozen(false);
         }
     }
 
@@ -332,10 +343,12 @@ public class LevelHudController : MonoBehaviour
         isPaused = true;
         RefreshTimeScale();
 
-        // Musik ikut berhenti sementara tanpa kehilangan posisinya.
+        // Musik ikut berhenti sementara tanpa kehilangan posisinya, dan semua SFX dibekukan:
+        // loop portal/musuh/platform berjalan dengan waktu nyata, jadi tanpa ini mereka tetap bunyi.
         if (AudioManager.Instance != null)
         {
             AudioManager.Instance.PauseMusic();
+            AudioManager.Instance.SetSfxFrozen(true);
         }
 
         if (pausePopup != null)
@@ -457,6 +470,7 @@ public class LevelHudController : MonoBehaviour
         if (AudioManager.Instance != null)
         {
             AudioManager.Instance.StopMusicImmediate();
+            AudioManager.Instance.SetSfxFrozen(true);
         }
 
         if (deathTitleLabel != null)
@@ -491,6 +505,12 @@ public class LevelHudController : MonoBehaviour
 
         isWon = true;
         RefreshTimeScale();
+
+        // Musik menang tetap berbunyi, tetapi loop SFX (portal, musuh, platform) harus diam.
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.SetSfxFrozen(true);
+        }
 
         if (winPopup != null)
         {
@@ -570,9 +590,10 @@ public class LevelHudController : MonoBehaviour
         isPaused = false;
         RefreshTimeScale();
 
-        // Musik baru lanjut setelah hitung mundur 3-2-1 selesai, dari detik terakhirnya.
+        // SFX dan musik baru lanjut setelah hitung mundur 3-2-1 selesai, dari detik terakhirnya.
         if (AudioManager.Instance != null)
         {
+            AudioManager.Instance.SetSfxFrozen(false);
             AudioManager.Instance.ResumeMusic();
         }
     }

@@ -386,7 +386,7 @@ public class MovingPlatform : MonoBehaviour
         return proximityTarget;
     }
 
-    /// <summary>Volume SFX global dari Settings; 0 kalau SFX sedang dimatikan atau dibungkam intro.</summary>
+    /// <summary>Volume SFX global dari Settings; 0 kalau SFX dimatikan atau sedang dibekukan.</summary>
     static float GetGlobalSfxVolume()
     {
         AudioManager manager = AudioManager.Instance;
@@ -395,7 +395,7 @@ public class MovingPlatform : MonoBehaviour
             return 1f;
         }
 
-        if (manager.IsSfxMuted || manager.IsSfxSuppressed)
+        if (manager.IsSfxMuted || manager.IsSfxSilenced)
         {
             return 0f;
         }
