@@ -2977,6 +2977,11 @@ MonoBehaviour:
   slideDistance: 1600
   enableKeyboard: 1
   homeScene: Home Screen
+  playScene: 
+  nextLabel: NEXT
+  playLabel: PLAY
+  nextButtonLabel: {fileID: 136761773}
+  allowBack: 1
   useTouchInstructionsOnMobile: 1
   previewTouchInstructionsInEditor: 1
   touchSlideBodies: []

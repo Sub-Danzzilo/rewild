@@ -6,11 +6,15 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 /// <summary>
-/// Pengatur menu How to Play: menampilkan satu slide per topik, berpindah dengan tombol PREV/NEXT,
-/// panah kiri/kanan (atau A/D), dan indikator bintang di bawah.
+/// Pengatur menu bantuan (Help) dan menu tutorial level 1: menampilkan satu slide per topik,
+/// berpindah dengan tombol PREV/NEXT, panah kiri/kanan (atau A/D), dan indikator bintang di bawah.
+///
+/// Tombol PREV disembunyikan di slide pertama dan NEXT disembunyikan di slide terakhir, jadi tidak
+/// ada tombol mati di ujung. Kalau Play Scene diisi (menu tutorial), NEXT di slide terakhir tidak
+/// disembunyikan: labelnya berubah menjadi Play dan tombol itu memuat scene level.
 ///
 /// Semua animasi memakai waktu nyata, jadi tetap berjalan walau Time.timeScale = 0. Tombol Back
-/// dan Esc kembali ke scene Home Screen.
+/// dan Esc kembali ke scene Home Screen; keduanya bisa dimatikan lewat Allow Back.
 /// </summary>
 [DisallowMultipleComponent]
 public class HowToPlayController : MonoBehaviour
@@ -33,6 +37,23 @@ public class HowToPlayController : MonoBehaviour
 
     [Tooltip("Tombol kembali ke Home Screen.")]
     [SerializeField] private Button backButton;
+
+    [Header("End Of Slides")]
+    [Tooltip("Jika diisi, slide terakhir tidak menyembunyikan NEXT: tombol yang sama berubah label menjadi " +
+             "Play dan memuat scene ini. Dipakai menu tutorial sebelum Level 1; kosongkan untuk menu Help biasa.")]
+    [SerializeField] private string playScene = "";
+
+    [Tooltip("Teks tombol NEXT saat masih berpindah slide.")]
+    [SerializeField] private string nextLabel = "NEXT";
+
+    [Tooltip("Teks tombol NEXT di slide terakhir saat Play Scene diisi.")]
+    [SerializeField] private string playLabel = "PLAY";
+
+    [Tooltip("Teks label di dalam tombol NEXT. Kosongkan untuk dicari otomatis dari anak tombol.")]
+    [SerializeField] private TMP_Text nextButtonLabel;
+
+    [Tooltip("Jika dimatikan, tombol Back dan Esc tidak berfungsi. Dipakai menu tutorial yang tidak punya Back.")]
+    [SerializeField] private bool allowBack = true;
 
     [Tooltip("Gambar indikator halaman (bintang), urut sesuai slide.")]
     [SerializeField] private Image[] dots;
@@ -140,9 +161,15 @@ public class HowToPlayController : MonoBehaviour
 
     #region Public Methods
 
-    /// <summary>Pindah ke slide berikutnya.</summary>
+    /// <summary>Pindah ke slide berikutnya, atau memuat scene Play kalau ini slide terakhir.</summary>
     public void Next()
     {
+        if (IsPlaySlide())
+        {
+            LoadPlayScene();
+            return;
+        }
+
         GoTo(currentIndex + 1, 1);
     }
 
@@ -155,6 +182,11 @@ public class HowToPlayController : MonoBehaviour
     /// <summary>Kembali ke Home Screen.</summary>
     public void Back()
     {
+        if (!allowBack)
+        {
+            return;
+        }
+
         Time.timeScale = 1f;
 
         if (string.IsNullOrWhiteSpace(homeScene))
@@ -326,15 +358,63 @@ public class HowToPlayController : MonoBehaviour
 
     private void UpdateButtons()
     {
-        if (prevButton != null)
+        bool playSlide = IsPlaySlide();
+        bool showPrev = wrapAround || currentIndex > 0;
+        bool showNext = playSlide || wrapAround || currentIndex < slides.Length - 1;
+
+        SetButtonVisible(prevButton, showPrev);
+        SetButtonVisible(nextButton, showNext);
+        UpdateNextLabel(playSlide);
+    }
+
+    /// <summary>
+    /// Tombol yang tidak berguna di ujung daftar slide disembunyikan, bukan sekadar dinonaktifkan,
+    /// supaya tidak ada tombol mati yang tetap terlihat.
+    /// </summary>
+    private static void SetButtonVisible(Button button, bool visible)
+    {
+        if (button != null && button.gameObject.activeSelf != visible)
         {
-            prevButton.interactable = wrapAround || currentIndex > 0;
+            button.gameObject.SetActive(visible);
+        }
+    }
+
+    private void UpdateNextLabel(bool playSlide)
+    {
+        if (nextButtonLabel == null && nextButton != null)
+        {
+            nextButtonLabel = nextButton.GetComponentInChildren<TMP_Text>(true);
         }
 
-        if (nextButton != null)
+        if (nextButtonLabel != null)
         {
-            nextButton.interactable = wrapAround || currentIndex < slides.Length - 1;
+            nextButtonLabel.text = playSlide ? playLabel : nextLabel;
         }
+    }
+
+    /// <summary>
+    /// True kalau slide yang tampil adalah slide terakhir dan menu ini punya scene tujuan Play.
+    /// Di kondisi itu tombol NEXT dipakai sebagai tombol Play.
+    /// </summary>
+    private bool IsPlaySlide()
+    {
+        return !string.IsNullOrWhiteSpace(playScene) &&
+               slides != null &&
+               slides.Length > 0 &&
+               currentIndex >= slides.Length - 1;
+    }
+
+    private void LoadPlayScene()
+    {
+        Time.timeScale = 1f;
+
+        if (!Application.CanStreamedLevelBeLoaded(playScene))
+        {
+            Debug.LogError($"Scene '{playScene}' is missing from Scenes In Build, so the level cannot be opened.", this);
+            return;
+        }
+
+        SceneManager.LoadScene(playScene);
     }
 
     private void WireButtons()
