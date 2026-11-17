@@ -1849,6 +1849,7 @@ MonoBehaviour:
   maxMoves: 6
   movesLabel: {fileID: 880030}
   movesFormat: 'Moves: {0}'
+  retryButton: {fileID: 0}
   pausePopup: {fileID: 880100}
   resumeCountdownRoot: {fileID: 880031}
   resumeCountdownLabel: {fileID: 880034}
@@ -1861,8 +1862,8 @@ MonoBehaviour:
   levelNumber: 1
   winPopup: {fileID: 695639075}
   levelSelectScene: Level Selection
-  enableDebugKeys: 0
   spendMoveKey: 27
+  touchControlsResourcePath: UI/Touch Controls
 --- !u!114 &880100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4587,6 +4588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   musicSource: {fileID: 695635986}
   sfxSource: {fileID: 695635989}
+  uiSfxSource: {fileID: 0}
   defaultMusicVolume: 1
   defaultSfxVolume: 1
   musicFadeDuration: 0.8

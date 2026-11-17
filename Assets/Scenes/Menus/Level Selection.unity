@@ -566,7 +566,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 5}
+  m_AnchoredPosition: {x: 0, y: 10}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &312
@@ -734,6 +734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   musicSource: {fileID: 512}
   sfxSource: {fileID: 522}
+  uiSfxSource: {fileID: 0}
   defaultMusicVolume: 1
   defaultSfxVolume: 1
   musicFadeDuration: 0.8
@@ -6831,7 +6832,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelButtonView
   levelNumber: 1
   sceneName: Level 1 Intro
-  requiredStars: 0
   backgroundImage: {fileID: 7003}
   numberLabel: {fileID: 7009}
   lockIcon: {fileID: 9000}
@@ -6932,7 +6932,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelButtonView
   levelNumber: 2
   sceneName: Level 2
-  requiredStars: 3
   backgroundImage: {fileID: 7025}
   numberLabel: {fileID: 7031}
   lockIcon: {fileID: 9005}
@@ -7033,7 +7032,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelButtonView
   levelNumber: 3
   sceneName: Level 3
-  requiredStars: 6
   backgroundImage: {fileID: 7047}
   numberLabel: {fileID: 7053}
   lockIcon: {fileID: 9010}
@@ -7134,7 +7132,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelButtonView
   levelNumber: 4
   sceneName: Level 4
-  requiredStars: 9
   backgroundImage: {fileID: 7069}
   numberLabel: {fileID: 7075}
   lockIcon: {fileID: 9015}
@@ -7235,7 +7232,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelButtonView
   levelNumber: 5
   sceneName: Level 5
-  requiredStars: 12
   backgroundImage: {fileID: 7091}
   numberLabel: {fileID: 7097}
   lockIcon: {fileID: 9020}
@@ -7336,7 +7332,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelButtonView
   levelNumber: 6
   sceneName: Level 6
-  requiredStars: 15
   backgroundImage: {fileID: 7113}
   numberLabel: {fileID: 7119}
   lockIcon: {fileID: 9025}
@@ -7437,7 +7432,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelButtonView
   levelNumber: 7
   sceneName: Level 7
-  requiredStars: 18
   backgroundImage: {fileID: 7135}
   numberLabel: {fileID: 7141}
   lockIcon: {fileID: 9030}
@@ -7538,7 +7532,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelButtonView
   levelNumber: 8
   sceneName: Level 8
-  requiredStars: 21
   backgroundImage: {fileID: 7157}
   numberLabel: {fileID: 7163}
   lockIcon: {fileID: 9035}
@@ -7639,7 +7632,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelButtonView
   levelNumber: 9
   sceneName: Level 9
-  requiredStars: 24
   backgroundImage: {fileID: 7179}
   numberLabel: {fileID: 7185}
   lockIcon: {fileID: 9040}
@@ -7740,7 +7732,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelButtonView
   levelNumber: 10
   sceneName: Level 10
-  requiredStars: 27
   backgroundImage: {fileID: 7201}
   numberLabel: {fileID: 7207}
   lockIcon: {fileID: 9045}
