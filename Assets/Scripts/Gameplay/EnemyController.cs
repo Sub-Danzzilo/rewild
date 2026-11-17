@@ -134,6 +134,12 @@ public class EnemyController : MonoBehaviour
              "Matikan kalau ada musuh yang memang harus terhalang duri.")]
     public bool passThroughHazards = true;
 
+    [Header("Fellow Enemies")]
+    [Tooltip("Jika aktif, musuh ini bisa menembus musuh lain (Bug atau Fly): collider musuh saling " +
+             "diabaikan, jadi dua Bug yang berpapasan di jalur yang sama tidak saling mendorong dan " +
+             "tersangkut. Matikan kalau ada musuh yang memang harus terhalang musuh lain.")]
+    public bool passThroughEnemies = true;
+
     [Header("Gate")]
     [Tooltip("Apa yang dilakukan musuh saat ada pintu gerbang (objek ber-GateLeverController) di jalurnya. " +
              "Pass Through = musuh menembus gerbang, Turn Around = musuh berbalik sebelum menyentuhnya, " +
@@ -262,6 +268,7 @@ public class EnemyController : MonoBehaviour
         }
 
         ApplyHazardPassThrough();
+        ApplyEnemyPassThrough();
         ApplyGateBehaviour();
 
         if (enemyType == EnemyType.Stationary)
@@ -465,6 +472,43 @@ public class EnemyController : MonoBehaviour
                 {
                     Physics2D.IgnoreCollision(enemyCollider, hazardColliders[c], true);
                 }
+            }
+        }
+    }
+
+    /// <summary>
+    /// Mengabaikan benturan musuh ini terhadap semua collider musuh lain (Bug maupun Fly). Dua Bug
+    /// yang berjalan berlawanan arah tadinya saling mendorong lewat physics karena body-nya Dynamic
+    /// dan didorong dengan MovePosition, sehingga keduanya berhenti di tempat; dengan opsi ini mereka
+    /// lewat begitu saja. Kontak dengan Webi tidak berubah.
+    /// </summary>
+    void ApplyEnemyPassThrough()
+    {
+        if (!passThroughEnemies || enemyCollider == null)
+        {
+            return;
+        }
+
+        EnemyController[] enemies = FindObjectsByType<EnemyController>(FindObjectsSortMode.None);
+        for (int i = 0; i < enemies.Length; i++)
+        {
+            EnemyController other = enemies[i];
+            if (other == null || other == this)
+            {
+                continue;
+            }
+
+            // Satu musuh bisa punya lebih dari satu collider (mis. badan + trigger).
+            Collider2D[] colliders = other.GetComponentsInChildren<Collider2D>(true);
+            for (int c = 0; c < colliders.Length; c++)
+            {
+                Collider2D candidate = colliders[c];
+                if (candidate == null || candidate == enemyCollider)
+                {
+                    continue;
+                }
+
+                Physics2D.IgnoreCollision(enemyCollider, candidate, true);
             }
         }
     }
