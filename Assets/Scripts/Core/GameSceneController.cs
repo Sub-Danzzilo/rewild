@@ -15,8 +15,8 @@ public class GameSceneController : MonoBehaviour
     [Tooltip("Nama scene level 1. Dipakai tombol level di scene Level Selection.")]
     [SerializeField] private string level1Scene = "Level 1";
 
-    [Tooltip("Nama scene panduan bermain (How To Play). Dipakai tombol How to Play di Home Screen.")]
-    [SerializeField] private string howToPlayScene = "How To Play";
+    [Tooltip("Nama scene panduan bermain (Help). Dipakai tombol How to Play di Home Screen.")]
+    [SerializeField] private string howToPlayScene = "Help";
 
     #endregion
 

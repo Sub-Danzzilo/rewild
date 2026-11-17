@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Menus/Level Selection.unity
     guid: 550cc801e73dba542a6cd838f101a95f
   - enabled: 1
-    path: Assets/Scenes/Menus/How To Play.unity
+    path: Assets/Scenes/Menus/Help.unity
     guid: 9f3e2905eee94c368b1c0ee210074dbe
   - enabled: 1
     path: Assets/Scenes/Menus/Level 1 Intro.unity

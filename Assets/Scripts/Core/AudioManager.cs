@@ -77,7 +77,7 @@ public class AudioManager : MonoBehaviour
     // Nama scene pemilik entri playlist yang musiknya sedang diputar (null = belum ada musik).
     private string currentMusicScene;
 
-    // True kalau scene yang barusan dibuka tidak punya playlist sendiri (mis. How To Play), sehingga
+    // True kalau scene yang barusan dibuka tidak punya playlist sendiri (mis. Help), sehingga
     // musik scene sebelumnya sengaja dibiarkan berjalan.
     private bool arrivedFromSceneWithoutMusic;
 
@@ -251,7 +251,7 @@ public class AudioManager : MonoBehaviour
     /// Memutar musik untuk sebuah scene. Satu track dipilih acak dari daftar scene tersebut, lalu
     /// diputar berulang sampai scene berganti. Dipanggil setiap scene dibuka, jadi Retry dan masuk
     /// ulang level otomatis mendapat track baru (dan tidak mengulang track yang barusan diputar).
-    /// Scene tanpa entri playlist (mis. How To Play) tidak menyentuh musik yang sedang berjalan;
+    /// Scene tanpa entri playlist (mis. Help) tidak menyentuh musik yang sedang berjalan;
     /// kembali ke scene pemilik musik itu lalu melanjutkan track dari posisi terakhir, bukan dari awal.
     /// </summary>
     public void PlaySceneMusic(string sceneName)
@@ -270,7 +270,7 @@ public class AudioManager : MonoBehaviour
             return;
         }
 
-        // Balik dari scene tanpa musik (mis. Home Screen -> How To Play -> Home Screen): kalau track
+        // Balik dari scene tanpa musik (mis. Home Screen -> Help -> Home Screen): kalau track
         // yang sama masih diputar, lanjutkan saja supaya tidak mengulang dari detik 0.
         if (arrivedFromSceneWithoutMusic && switchRoutine == null &&
             currentMusicScene == entry.sceneName && musicSource.clip != null)

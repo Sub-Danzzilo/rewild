@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 /// langsung memutar musik begitu scene selesai dimuat.
 ///
 /// Playlist-nya diambil dari Assets/Resources/MusicLibrary.asset berdasarkan nama scene, jadi
-/// menambah level baru cukup menambah entri di asset itu. Scene tanpa entri (mis. How To Play)
+/// menambah level baru cukup menambah entri di asset itu. Scene tanpa entri (mis. Help)
 /// tidak memutar apa pun dan membiarkan musik scene sebelumnya berjalan; saat kembali ke scene
 /// pemilik playlist itu, AudioManager melanjutkan track yang sama dari posisi terakhir.
 /// </summary>

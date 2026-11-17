@@ -3001,7 +3001,7 @@ MonoBehaviour:
   homeScene: Home Screen
   levelSelectScene: Level Selection
   level1Scene: Level 1
-  howToPlayScene: How To Play
+  howToPlayScene: Help
 --- !u!114 &1324224497
 MonoBehaviour:
   m_ObjectHideFlags: 0
