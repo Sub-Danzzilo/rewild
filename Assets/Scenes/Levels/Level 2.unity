@@ -2235,7 +2235,7 @@ MonoBehaviour:
     width: 62.725
     height: 26.4875
   useLevelContentAsBounds: 1
-  contentPadding: 1.5
+  contentPadding: 6
   levelContentRoot: {fileID: 0}
   extendBackground: 1
   mirrorBackgroundTiles: 1
