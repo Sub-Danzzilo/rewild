@@ -52,24 +52,27 @@ sudah terpasang.
 ### Format pesan commit
 
 ```
-<tipe>(<area>): <ringkasan singkat>
+<type>(<area>): <short summary>
 ```
 
+- **The commit message is written in English** — subject line and body — even though the working
+  language with the project owner is Indonesian. Commits written in Indonesian before this rule
+  existed are left alone; do not rewrite history to translate them.
 - **Tipe:** `feat` (fitur), `fix` (perbaikan bug), `ui`, `audio`, `art`, `balance` (angka gameplay),
-  `docs`, `chore` (tooling atau bersih-bersih).
+  `docs`, `chore` (tooling atau bersih-bersih). Tipe dan area tetap seperti daftar ini.
 - **Area:** sistem atau folder yang disentuh, huruf kecil, pakai tanda hubung: `player`,
   `moving-ground`, `hud`, `touch-controls`, `level-7`, `repo`.
-- Baris pertama maksimal 72 karakter, tanpa titik di akhir, bahasa Indonesia seperti bahasa kerja
-  proyek.
-- Baris kedua kosong, lalu isi 1–3 kalimat: **kenapa** perubahan ini dibuat dan efeknya ke pemain,
-  bukan daftar file. Sebutkan level yang terdampak kalau perubahannya per level.
+- Subject line maksimal 72 karakter, tanpa titik di akhir, ditulis sebagai perintah singkat
+  (imperative), mis. `widen the draggable area in every level`.
+- Baris kedua kosong, lalu isi 1–3 kalimat bahasa Inggris: **kenapa** perubahan ini dibuat dan
+  efeknya ke pemain, bukan daftar file. Sebutkan level yang terdampak kalau perubahannya per level.
 - Contoh:
 
 ```
-fix(moving-ground): SFX berhenti ikut proximity
+fix(moving-ground): stop the halt SFX from ignoring distance
 
-SFX berhenti dulu diputar lewat AudioManager dengan volume global, jadi terdengar penuh walau
-platform jauh. Sekarang loop dan SFX berhenti sama-sama memakai jarak ke Webi.
+The halt SFX used to play through AudioManager at global volume, so it sounded full even when the
+platform was far away. Loop and halt SFX now both use the distance to Webi.
 ```
 
 - Satu commit tidak boleh berisi perubahan yang belum dikompilasi/diverifikasi.
