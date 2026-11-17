@@ -25,6 +25,57 @@ berubah) — itu cepat basi dan menyesatkan. Bahasa kerja dengan pemilik proyek:
 - Verifikasi yang butuh Unity (Console, screenshot) boleh lewat skrip editor sementara + `Editor.log`;
   caranya ada di *Verifikasi tanpa klik UI*.
 
+## Git & GitHub
+
+Repo publik proyek ini: `https://github.com/Sub-Danzzilo/rewild`, branch `main`, remote `origin`
+sudah terpasang.
+
+- **Commit lokal otomatis, push hanya kalau diminta.** Setiap pekerjaan yang sudah selesai dan lolos
+  verifikasi langsung di-commit ke repo lokal, tanpa perlu menunggu perintah commit. Jangan pernah
+  menjalankan `git push` kecuali pemilik menuliskannya eksplisit ("commit dan push", "push",
+  "unggah ke GitHub"). Push tanpa permintaan dianggap kesalahan.
+- Jangan menulis ulang riwayat: tanpa `git reset --hard`, `git rebase`, `git commit --amend` pada
+  commit yang sudah di-push, atau `git push --force`. Kalau ada yang salah, buat commit perbaikan.
+- Jangan membuat tag, release, mengubah visibility repo, atau menambah collaborator tanpa permintaan
+  eksplisit.
+- Sebelum commit: jalankan `git status` dan `git diff` untuk memastikan hanya file yang dimaksud
+  ikut. Jangan pernah meng-commit `Library/`, `Temp/`, `Logs/`, `Screenshots/`, `tmp_backup/`,
+  `Tools/backup/`, `.csproj`/`.slnx` generated, atau file berisi kredensial (`.env`, token,
+  keystore).
+- Satu commit = satu perubahan utuh. Jangan mencampur perbaikan bug, refactor, dan dokumen yang
+  tidak berhubungan dalam satu commit.
+- File scene `.unity` dan prefab hanya di-commit setelah pemilik menyimpan scene-nya (judul tanpa
+  `*`) dan isinya sudah diverifikasi, supaya perubahan di memori editor tidak tertinggal.
+- Setelah push (kalau diminta): pastikan `git status` bersih, `git log origin/main..HEAD` kosong,
+  dan sebutkan hash commit di laporan akhir.
+
+### Format pesan commit
+
+```
+<tipe>(<area>): <ringkasan singkat>
+```
+
+- **Tipe:** `feat` (fitur), `fix` (perbaikan bug), `ui`, `audio`, `art`, `balance` (angka gameplay),
+  `docs`, `chore` (tooling atau bersih-bersih).
+- **Area:** sistem atau folder yang disentuh, huruf kecil, pakai tanda hubung: `player`,
+  `moving-ground`, `hud`, `touch-controls`, `level-7`, `repo`.
+- Baris pertama maksimal 72 karakter, tanpa titik di akhir, bahasa Indonesia seperti bahasa kerja
+  proyek.
+- Baris kedua kosong, lalu isi 1–3 kalimat: **kenapa** perubahan ini dibuat dan efeknya ke pemain,
+  bukan daftar file. Sebutkan level yang terdampak kalau perubahannya per level.
+- Contoh:
+
+```
+fix(moving-ground): SFX berhenti ikut proximity
+
+SFX berhenti dulu diputar lewat AudioManager dengan volume global, jadi terdengar penuh walau
+platform jauh. Sekarang loop dan SFX berhenti sama-sama memakai jarak ke Webi.
+```
+
+- Satu commit tidak boleh berisi perubahan yang belum dikompilasi/diverifikasi.
+- **Tanpa footer attribusi AI.** Jangan tambahkan `Generated with Codebuff`, `Co-Authored-By:`
+  Codebuff, atau baris sejenis di pesan commit; pesan berhenti di kalimat terakhir isi commit.
+
 ## Lingkungan
 
 - Unity **6000.2.9f1**, 2D (URP), Input System baru (`Keyboard.current` / `Mouse.current`),
@@ -126,6 +177,13 @@ dilukis manual per instance dan disimpan sebagai override di scene.
   Waypoint yang dipakai sebagai titik tujuan platform adalah posisi root platform.
 - `CarryRider` sengaja **melewati** objek yang punya `PlayerController`: Webi mengikuti platform
   lewat `PlayerController.FollowSupportSurfaceMotion()`, jadi jangan digeser lagi di sana.
+
+- **SFX gerak dan berhenti sama-sama proximity.** `MovingPlatform` membuat dua AudioSource sendiri:
+  loop `moveLoopSfx` yang berputar selama platform bergerak dan memudar saat Webi menjauh, serta
+  one-shot `moveStopSfx` setiap kali platform berhenti. Keduanya memakai
+  `ProximitySfx.VolumeFactor` dengan `moveSfxNearDistance`/`moveSfxFarDistance`; jangan menggantinya
+  ke `AudioManager.PlaySfx` karena itu memakai volume global dan terdengar penuh dari jauh. Clip
+  dan jaraknya disimpan di prefab `Moving Ground`, jadi satu perubahan berlaku untuk semua level.
 
 ## Tile slope 26° (set L/R)
 
