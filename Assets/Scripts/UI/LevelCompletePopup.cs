@@ -314,7 +314,11 @@ public class LevelCompletePopup : MonoBehaviour
         LevelProgress.AwardStars(levelNumber, earnedStars, maxStars);
     }
 
-    /// <summary>SFX tiap bintang terisi; pitch dan volume diambil per urutan bintang.</summary>
+    /// <summary>
+    /// SFX tiap bintang terisi; pitch dan volume diambil per urutan bintang. Diputar lewat jalur UI
+    /// karena popup menang sudah membekukan SFX gameplay (loop portal/musuh/platform), dan suara
+    /// bintang justru bagian dari animasi popup itu sendiri.
+    /// </summary>
     private void PlayStarSfx(int index)
     {
         if (starSfx == null || AudioManager.Instance == null)
@@ -324,7 +328,7 @@ public class LevelCompletePopup : MonoBehaviour
 
         float pitch = GetValue(starSfxPitches, index, 1f);
         float volume = GetValue(starSfxVolumes, index, 1f);
-        AudioManager.Instance.PlaySfx(starSfx, pitch, pitch, volume);
+        AudioManager.Instance.PlayUiSfx(starSfx, pitch, pitch, volume);
     }
 
     private static float GetValue(float[] values, int index, float fallback)
