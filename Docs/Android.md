@@ -156,7 +156,9 @@ mematikan kontrol sentuh di satu level saja, tambahkan prefabnya sendiri atau ko
 ### 5.1 Windows
 
 1. `File > Build Profiles`, pilih (atau tambah) profil **Windows**.
-2. Pastikan daftar scene berisi 15 scene yang sekarang (Home Screen … Testing).
+2. Pastikan daftar scene berisi 14 scene aktif: `Home Screen`, `Level Selection`, `Help`, `Level 1
+   Tutorial`, lalu `Level 1` … `Level 10`. `Level 1 Intro` dan `Testing` masih ada di proyek tetapi
+   dimatikan di Scenes In Build, jadi jangan ikut dicentang.
 3. `Build`, pilih folder kosong (mis. `Builds/Windows`), hasilnya `Rewild.exe` + folder
    `Rewild_Data`.
 4. Untuk memakai overlay kontrol sentuh di build Windows (mis. demo di laptop layar sentuh), hidupkan
@@ -173,8 +175,9 @@ mematikan kontrol sentuh di satu level saja, tambahkan prefabnya sendiri atau ko
 1. `File > Build Profiles > Add Build Profile > Android > Add Build Profile`, lalu
    **`Switch Profile`**.
 2. **Player Settings** (`Edit > Project Settings > Player`, tab Android):
-   - *Identification*: `Package Name` wajib diganti, mis. `com.namastudio.rewild` (tidak boleh
-     `com.DefaultCompany...`), `Version` sesuka hati.
+   - *Identification*: `Package Name` sudah diisi `com.trinova.rewild` dan `Version` sudah `1.0.1`.
+     Jangan diubah setelah build diunggah ke Play Store; untuk uji lokal boleh diganti, tetapi
+     jangan `com.DefaultCompany...`.
    - *Resolution and Presentation*: `Default Orientation` = **Landscape Left** (atau
      `Auto Rotation` dengan hanya Landscape Left/Right dicentang). Game ini HUD-nya 16:9, jadi
      portrait tidak dipakai. `Render outside safe area` boleh dibiarkan seperti bawaan.
@@ -195,8 +198,9 @@ Catatan: proyek ini sudah memakai **Input System baru** (`activeInputHandler = 1
 tiap scene memakai `InputSystemUIInputModule`. Sentuhan di UGUI (tombol, popup) langsung jalan tanpa
 perubahan setting. Tidak ada asmdef khusus, jadi tidak ada yang perlu diubah di sisi build script.
 
-> Belum ada tombol keluar (Quit) untuk Android di menu. Tombol fisik *Back* pada HP tidak otomatis
-> berfungsi sebagai "kembali"; kalau perlu, itu tambahan terpisah.
+> Menu Home sudah punya tombol **Exit** (dengan popup konfirmasi) yang memanggil
+> `GameSceneController.QuitGame()`; di Android itu berujung ke `Application.Quit()`. Yang belum ada
+> adalah tombol fisik *Back* pada HP sebagai "kembali"; kalau perlu, itu tambahan terpisah.
 
 ### 5.4 Setting build per field (`File > Build Profiles`)
 
@@ -246,22 +250,23 @@ Disabled`, jadi laporan crash tidak lengkap. Pilih salah satu:
 - butuh stack trace lengkap saat uji → `Debug Symbols = Full` (build lebih besar), atau
 - tidak butuh → `Diagnostics Data = Disabled`, atau biarkan seperti sekarang.
 
-#### Kondisi proyek sekarang vs yang perlu diubah
+#### Kondisi proyek sekarang
 
 Dibaca dari `ProjectSettings/ProjectSettings.asset` (bisa berubah kalau setting diubah di Editor):
 
-| Setting | Sekarang | Untuk Android |
+| Setting | Sekarang | Catatan |
 |---|---|---|
-| `Package Name` (Android) | belum diisi → jadi `com.DefaultCompany.Rewild` | **ganti**, mis. `com.namastudio.rewild`. Tidak bisa diubah setelah unggah ke Play |
-| `Company Name` | `DefaultCompany` | nama studio (ikut membentuk package name bawaan) |
-| `Default Orientation` | `Auto Rotation` | **Landscape Left** (HUD game 16:9; portrait akan berantakan) |
+| `Package Name` (Android) | `com.trinova.rewild` | sudah benar; tidak bisa diubah setelah unggah ke Play |
+| `Company Name` | `Trinova` | ikut membentuk package name bawaan |
+| `Default Orientation` | `Auto Rotation`, hanya landscape kiri/kanan | sudah benar; portrait dimatikan jadi game tetap landscape |
 | `Scripting Backend` (Android) | IL2CPP | sudah benar, jangan diubah |
 | `Target Architectures` | ARM64 | sudah benar (wajib untuk Play) |
 | `Minimum API Level` | 23 (Android 6.0) | sudah benar |
 | `Api Compatibility Level` | .NET Standard 2.1 | sudah benar |
 | `Color Space` | Linear | sudah benar |
 | `Active Input Handling` | Input System Package (New) | sudah benar, jangan diubah ke Input Manager lama |
-| `Bundle Version Code` | 1 | naikkan setiap unggah ke Play |
+| `Version` (Bundle Version) | `1.0.1` | naikkan setiap rilis; `1.0` → `1.0.1` untuk build saat ini |
+| `Bundle Version Code` | 1 | masih 1 untuk kedua build; Play Store menolak unggahan dengan versionCode yang sama |
 | Texture Compression (Android) | bawaan | set **ASTC**; kalau sprite UI terlihat buram, importer teksturnya di-set `Compression = None` |
 
 ---
@@ -304,7 +309,7 @@ di Editor. Untuk itu:
 
 ## 7. How to Play untuk Android
 
-Slide How To Play yang ada sekarang berisi gambar dan teks versi Windows (`A / D`, `F`,
+Slide di scene `Help` (How to Play) berisi gambar dan teks versi Windows (`A / D`, `F`,
 `left-click`). Yang sudah diubah:
 
 - `HowToPlayController` sekarang punya bagian **Touch (Android) Instructions**:
@@ -328,7 +333,7 @@ Ilustrasi slide belum digambar ulang. Urutan yang disarankan saat art Android si
    seperti sekarang (persegi 1120×1120, latar transparan).
 2. Simpan sebagai `slide_2_wall_touch.png` dan `slide_3_swing_touch.png` di
    `Assets/Art/UI/HowToPlay/`.
-3. Ganti sprite `Illustration` pada Slide 2 dan Slide 3 di scene `How To Play` **hanya untuk build
+3. Ganti sprite `Illustration` pada Slide 2 dan Slide 3 di scene `Help` **hanya untuk build
    Android** — cara paling aman: buat variasi scene/slide terpisah, atau ganti sprite sebelum
    build Android lalu kembalikan sebelum build Windows. (Belum dibuat otomatis karena akan
    menambah field baru yang harus diisi manual; kalau mau otomatis, bisa ditambahkan nanti dengan
