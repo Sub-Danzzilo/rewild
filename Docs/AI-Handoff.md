@@ -15,7 +15,7 @@
 
 | Item | Nilai |
 |---|---|
-| Nama produk | `Rewild` (company: `DefaultCompany`, versi `1.0`) |
+| Nama produk | `Rewild` (company: `Trinova`, versi `1.0.1`, package Android `com.trinova.rewild`) |
 | Genre | 2D platformer-puzzle dengan gerak berbasis permukaan (bisa jalan di dinding & langit-langit) dan ayunan jaring |
 | Karakter | **Webi**, laba-laba. Membidik dengan jaring, menembak ke platform, lalu ditarik ke platform itu |
 | Objek | Mengambil **benih** (`Seed`), menanamnya di **tumpukan tanah** (`TumpTanah`), tanaman tumbuh = level selesai |
@@ -34,7 +34,7 @@ bahaya = mati, lalu popup restart.
 
 ```
 Assets/
-  Scenes/Menus/      Home Screen, Level Selection, How To Play, Level 1 Intro
+  Scenes/Menus/      Home Screen, Level Selection, Help, Level 1 Tutorial
   Scenes/Levels/     Level 1 … Level 10
   Scenes/Sandbox/    Experiment, Testing (bukan bagian alur game)
   Scenes/Templates/  URP2DSceneTemplate
@@ -48,7 +48,7 @@ Assets/
   Prefabs/Props      BluePortal, GreenPortal, Gate, Lever
   Prefabs/UI         VolumeToggle
   Resources/UI       LockedLevelPopup, Touch Controls  ← dimuat runtime lewat Resources.Load
-  Resources/         MusicLibrary.asset, video intro
+  Resources/         MusicLibrary.asset, Video/Level1Intro.mp4 (tidak dipakai lagi)
   Art/               sprites, tiles, palettes (lihat §9)
 Docs/                Android.md, HowToPlay.md, AI-Handoff.md (file ini)
 Tools/agent/         kanal perintah ke Unity yang sedang terbuka (§11)
@@ -103,14 +103,16 @@ key `Level.Stars.<n>`), main ulang dengan hasil lebih buruk tidak menurunkan tot
 ## 4. Alur scene
 
 ```
-Home Screen → Level Selection → (Level 1 Intro, hanya level 1) → Level N
+Home Screen → Level Selection → (Level 1 Tutorial, hanya level 1) → Level N
 Level N (menang) → popup menang: 3 bintang, tombol Next Level / Level Selection / Restart
                                     Next Level dicek dulu ke LevelUnlockRules:
                                     kalau belum cukup bintang → LockedLevelPopup di atasnya
 ```
 
-- `GameSceneController` memuat scene menu (Play → Level Selection, Settings popup, How to Play, Exit).
-- `LevelIntroController` memutar video dari `Resources` lalu memuat `targetScene`.
+- `GameSceneController` memuat scene menu (Play → Level Selection, Settings popup, How to Play → scene
+  `Help`, Exit).
+- `LevelIntroController` memutar video dari `Resources` lalu memuat `targetScene`. Scene `Level 1 Intro`
+  masih ada di folder tetapi dimatikan di Scenes In Build; alur sekarang memakai `Level 1 Tutorial`.
 - `LevelHudController` menyimpan `levelNumber` yang dipakai popup menang untuk menyimpan bintang.
 
 ---
@@ -269,7 +271,7 @@ popup game over (3 judul sesuai penyebab), popup menang, dan **memuat prefab kon
 | Level Selection | `LevelSelectionController`, `LevelButtonView` | total bintang → buka/kunci tombol; klik level terkunci → popup |
 | Popup menang | `LevelCompletePopup` | 3 bintang terisi satu per satu sesuai sisa moves; Next Level / Level Selection / Restart |
 | Popup terkunci | `LockedLevelPopup` | dipakai dua wujud: instance di scene Level Selection dan prefab `Resources/UI/LockedLevelPopup` (dipanggil `LevelCompletePopup`) |
-| How to Play | `HowToPlayController` | 6 slide, PREV/NEXT, panah kiri/kanan, indikator bintang; versi teks Android otomatis (`Application.isMobilePlatform`) |
+| How to Play / Tutorial | `HowToPlayController` | 6 slide, PREV/NEXT, panah kiri/kanan, indikator bintang; versi teks Android otomatis (`Application.isMobilePlatform`). Dipakai scene `Help` (Play Scene kosong, Back hidup) dan `Level 1 Tutorial` (slide terakhir menjadi PLAY → `Level 1`, Back mati) |
 | Popup | `UIPopupSlide` | slide dari atas, tanpa Animator |
 | Tombol | `UIButtonInteractive` | area klik mengikuti bentuk sprite (Preserve Aspect) |
 | Settings | `SettingsController`, `AudioToggle`, prefab `VolumeToggle` | musik & SFX, disimpan di PlayerPrefs |
