@@ -16,12 +16,13 @@ Built with **Unity 6.2 (6000.2.9f1)**, 2D URP, the new Input System and Tilemap.
 
 | Platform | File on the Releases page | Requirements |
 |---|---|---|
-| Windows | the `.zip` archive — unzip it and run `Rewild.exe` | 64-bit Windows 10 or newer |
-| Android | the `.apk` — allow installs from unknown sources, then open it | Android 6.0 (API 23) or newer, ARM64, landscape |
+| Windows | the `.zip` archive — unzip it and run `Rewild.exe` | Windows 10 version 21H1 (build 19043) or newer, 64-bit |
+| Android | the `.apk` — allow installs from unknown sources, then open it | Android 6.0 (API 23) or newer, ARM64 device, landscape |
 
 The layout is built for 1920×1080; Android builds are locked to landscape and show the touch
-overlay automatically. Progress (stars) is stored locally on the device, so reinstalling the game
-starts over.
+overlay automatically. The Windows player is built for Intel 64-bit and the APK contains ARM64 code
+only, so 32-bit Windows and x86 Android emulators are not supported. Progress (stars) is stored
+locally on the device, so reinstalling the game starts over.
 
 ---
 
@@ -75,9 +76,15 @@ required.
 The touch overlay is loaded from `Assets/Resources/UI/Touch Controls.prefab`, so all ten level
 scenes share one layout:
 
-- left side: virtual pad for walking,
-- right side: aim pad with a web knob, then a shoot button,
-- HUD buttons for pause and retry.
+- **bottom left** — two round buttons (`Button Left`, `Button Right`): hold one to walk.
+- **bottom right** — an aim pad with a web knob: hold and drag to aim, then **release to shoot**.
+  There is no separate shoot button; the shot fires along the aim line and only if it ends on a
+  platform (layer 3).
+- **cancel** — while the pad is held, drag onto the cross at the top right and release to cancel;
+  no Move is spent.
+- **camera** — drag any empty part of the screen to pan.
+- **HUD** — pause and retry stay on top of the overlay, and the overlay fades out while the game is
+  paused, over or won.
 
 ---
 
