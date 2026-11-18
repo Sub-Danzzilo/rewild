@@ -6,6 +6,23 @@ watch the plant grow — but the only way to move is your web line, and every sh
 
 Built with **Unity 6.2 (6000.2.9f1)**, 2D URP, the new Input System and Tilemap.
 
+> **Status:** version **1.0.1**. This is a non-commercial student project — see
+> [About this project](#about-this-project). Ready-to-play Windows and Android builds are attached
+> to the [Releases](https://github.com/Sub-Danzzilo/rewild/releases) page.
+
+---
+
+## Download
+
+| Platform | File on the Releases page | Requirements |
+|---|---|---|
+| Windows | the `.zip` archive — unzip it and run `Rewild.exe` | 64-bit Windows 10 or newer |
+| Android | the `.apk` — allow installs from unknown sources, then open it | Android 6.0 (API 23) or newer, ARM64, landscape |
+
+The layout is built for 1920×1080; Android builds are locked to landscape and show the touch
+overlay automatically. Progress (stars) is stored locally on the device, so reinstalling the game
+starts over.
+
 ---
 
 ## Gameplay
@@ -24,12 +41,18 @@ Built with **Unity 6.2 (6000.2.9f1)**, 2D URP, the new Input System and Tilemap.
 
 ### Levels and unlocks
 
-The game has **10 levels**. Each one has a fixed Move budget (from 6 to 17, 100 in total), and the
-next level unlocks only after collecting enough stars:
+The game has **10 levels**. A short tutorial slideshow plays before Level 1, and the same slides are
+available any time from **How to Play** on the Home Screen. Each level has a fixed Move budget
+(from 6 to 17, 100 in total), and the next level unlocks only after collecting enough stars:
 
 | Level | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Stars needed | 0 | 0 | 2 | 4 | 7 | 9 | 11 | 14 | 16 | 18 |
+| Stars needed | 0 | 2 | 4 | 7 | 9 | 11 | 14 | 16 | 18 | 21 |
+
+The table lives in one place (`LevelUnlockRules.RequiredStarsByLevel`), so the level buttons, the
+locked-level popup and the Next Level button always agree. Level 10 asks for 21 of the 27 stars
+available from Levels 1–9, so a mix of perfect and 2-star runs is enough — a perfect run is never
+required.
 
 ---
 
@@ -88,9 +111,10 @@ backup folders are ignored by Git — Unity recreates them.
 ### Building
 
 - **Windows:** *File → Build Profiles → Windows*, then Build.
-- **Android:** see [`Docs/Android.md`](Docs/Android.md) for the keystore, package name and device
-  checking notes used in this project. The game is landscape-only and uses the touch overlay
-  described above.
+- **Android:** see [`Docs/Android.md`](Docs/Android.md) for the keystore and device testing notes.
+  The shipped build uses package `com.trinova.rewild`, IL2CPP with ARM64, minimum API level 23 and a
+  landscape-only screen. The touch overlay is loaded from `Resources/UI/Touch Controls.prefab`, so
+  no level scene stores its own copy.
 
 ---
 
@@ -98,7 +122,7 @@ backup folders are ignored by Git — Unity recreates them.
 
 | Path | Content |
 |---|---|
-| `Assets/Scenes/Menus` | `Home Screen`, `Level Selection`, `Level 1 Intro` (video intro) |
+| `Assets/Scenes/Menus` | `Home Screen`, `Level Selection`, `Help` (How to Play slides), `Level 1 Tutorial` (slides shown before Level 1) |
 | `Assets/Scenes/Levels` | Ten level scenes, `Level 1` … `Level 10` |
 | `Assets/Scenes/Sandbox` | `Experiment`, `Testing` — not part of the game flow |
 | `Assets/Scripts/Core` | Camera, level intro, tilemap builder, progress, audio, scene flow |
@@ -110,6 +134,9 @@ backup folders are ignored by Git — Unity recreates them.
 | `Assets/Prefabs` | Webi, platforms, moving ground, seeds, dirt pile, spikes |
 | `Assets/Resources` | Prefabs and libraries loaded at runtime (touch controls, music library) |
 | `Docs` | Android build notes, How to Play layout, AI handoff document |
+
+`Level 1 Intro` (an old video intro) is still in `Menus` but disabled in Scenes In Build — the
+tutorial slideshow replaced it. `Assets/Scenes/Sandbox` is not part of the game flow.
 
 ### How the levels are built
 
@@ -132,6 +159,23 @@ per cell. Large slanted terrain uses a rotated `Grid Miring` chunk prefab, and m
 
 ---
 
+## About this project
+
+Rewild is a **college coursework project**. It was built as a student assignment, not as a product,
+and it is published here so classmates, friends and anyone curious can play it and read how it was
+made.
+
+- **Not commercial.** The game is free, the builds are free, and there are no ads, in-app purchases,
+  accounts, subscriptions or analytics. Nothing in this project is sold, and there is no plan to
+  sell it.
+- **No company behind it.** `Trinova` is the placeholder company name used in the Unity player
+  settings; it is not a registered studio.
+- **AI-assisted, hand-tuned.** Code and art began as AI-generated drafts, then were wired, redrawn
+  and balanced by hand — see [Credits](#credits).
+- **Feedback is welcome.** If you find a bug or a level that feels unfair, open an issue.
+
+---
+
 ## Credits
 
 - Design, direction and playtesting: **Sub-Danzzilo**
@@ -142,5 +186,7 @@ per cell. Large slanted terrain uses a rotated `Grid Miring` chunk prefab, and m
 
 ## License
 
-No license file is included yet, so all rights are reserved by the author. If you want to reuse
-parts of this project, please open an issue first.
+There is no license file in this repository, so the code, art and audio remain **all rights
+reserved** by the author. This is a non-commercial student project: you are welcome to play it, share
+the release page and read the source for learning, but please do not sell it, publish it as your own
+work, or reuse its art or audio without asking. If you want to use a part of it, open an issue first.
