@@ -10,6 +10,13 @@
 /[Uu]ser[Ss]ettings/
 /[Mm]emoryCaptures/
 /[Rr]ecordings/
+/.utmp/
+
+# ---------------------------------------------------------------
+# Crash recovery scenes Unity writes after a crash
+# ---------------------------------------------------------------
+/Assets/_Recovery/
+/Assets/_Recovery.meta
 
 # ---------------------------------------------------------------
 # Files Unity regenerates on every open
@@ -63,6 +70,9 @@ sysinfo.txt
 /.freebuff/
 /.cloud-attachments/
 /.agents/
+
+# Local switch for the RewildAgentBridge editor bridge: every clone owns its own.
+/Tools/agent/enabled.flag
 
 # ---------------------------------------------------------------
 # OS
